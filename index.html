@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODAL jS</title>
+</head>
+<body>
+    <div class="modal-container"><!--Il s'agit la du contenu qui sera caché de base donc qui sera appelé lors du click sur le bouton-->
+        <div class="overlay modal-trigger"><!-- il va s'agit ici de notre overlay qui lui aussi pourra refermer notre fenetre modale--></div>
+     <!--L'overlay se cree et sur l'overlay on a notre modal-->
+        <div class="Modal"><!-- Contenu de notre modale-->
+            <button class="close-modal modal-trigger">X</button>
+            <h1>Bievennue internaute</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta, minima cum itaque quo delectus consectetur vero error repellendus mollitia accusantium illo perferendis aliquam facilis ipsa ea. In, cumque id.</p>
+        </div>
+    </div>
+<!-- la Premiere animation que l'on fera sera de cacher le contenu de notre fenetre modale
+en jouant avec la proprietes "diplay : none" et "display:flex"
+
+// pour centre des elements positionés en" Absolute" on utilisera la proprieté css
+"tranform:translate(-50%,-50%)"
+
+-->
+
+
+    <button class="modal-btn modal-trigger">Se CONNECTER </button>
+    <script src="app.js"></script>
+</body>
+</html>
